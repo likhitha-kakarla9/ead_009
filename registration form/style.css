@@ -1,0 +1,35 @@
+*{
+    
+    margin-bottom:10px;
+    margin-top:5px;
+}
+#submit{
+    background-color:green;
+    color:white;
+    height:40px;
+    width:30%;
+}
+#Address{
+
+    border-radius:10%;
+}
+/* #fname{
+    margin-bottom:10px;
+    margin-top:5px;
+}
+#lname{
+    margin-bottom:10px;
+    margin-top:5px;
+}
+#emailid{
+    margin-bottom:10px;
+    margin-top:5px;
+}
+#password{
+    margin-bottom:10px;
+    margin-top:5px;
+}
+#Dob{
+    margin-bottom:10px;
+    margin-top:5px;
+} */
