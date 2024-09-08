@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0056b3;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin: 0;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #0056b3;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Profile section */
+.profile p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Education and project styles */
+.school, .project {
+    margin-bottom: 15px;
+}
+
+.school h3, .project h3 {
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.school p, .project p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+/* Certifications and interests styles */
+.certifications ul, .interests ul {
+    list-style: none;
+    padding: 0;
+}
+
+.certifications li, .interests li {
+    margin-bottom: 8px;
+    padding-left: 15px;
+    position: relative;
+    font-size: 0.95em;
+    color: #444;
+}
+
+.certifications li::before, .interests li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #0056b3;
+    font-size: 1.2em;
+}
+
+/* Skills section */
+.skills {
+    margin-top: 20px;
+}
+
+.skills h2 {
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.skills li {
+    background-color: #e7f1ff;
+    padding: 8px 12px;
+    border: 1px solid #0056b3;
+    border-radius: 20px;
+    font-size: 0.9em;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
